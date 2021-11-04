@@ -1,0 +1,236 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\footskip}{4.4pt}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{\textsf{#1}}{: \textsf{#2} \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\textsf{#1}} & \textsf{#2} \\
+      \textsf{\small{#3}} & \textit{\textsf{\small{#4}}} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+% \renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\textsf{\LARGE PHANG WAI HONG}} & Email: \href{mailto:dannyphang64@gmail.com}{\textsf{dannyphang64@gmail.com}}\\
+  \textbf{\textsf{Software Engineering Student}} & Mobile: \href{tel:+60165930959}{\textsf{+60 16-593 0959}}\\
+  \href{https://github.com/dannyphang}{\textsf{Github:~github.com/dannyphang}} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Tunku Abdul Rahman University College}{Kuala Lumpur, Malaysia}
+      {Bachelor of Computer Science (Honours) in Software Engineering}{Oct 2019 - Oct 2022}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Data Structures, Data Science, Artificial Intelligence, Web and Mobile Development, Databases}}}
+    \resumeSubheading
+      {SMK Seri Keledang}{Perak, Malaysia}
+      {Physics Class}{June 2017 - Dec 2018}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Pengajian Am, Additional Mathematics, Physics, Chemistry}}}
+    \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\vspace{-3pt}
+\section{Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Technical Skills}{~~~~~~Python, JAVA, C/C++, JavaScript, SQL, Firebase, Kotlin, ASP.NET}
+	\resumeSubItem{Languages}{~~~~~~~~~~~~~Fluent in English and Chinese; Conversational in Malay}
+	% \resumeSubItem{Tools}{~~~~~~~~~~~~~~Kubernetes, Docker, GIT, PostgreSQL, MySQL, SQLite}
+	% \resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows, Arduino, Raspberry, AWS, GCP, Alibaba Cloud, IBM Cloud}
+	% \resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Time Management}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\vspace{0pt}
+\section{Experience and Projects}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+        {Covid Bot}{Discord Bot}
+        {Node.js, WOKCommand}{Oct 2021}
+            \resumeItemListStart
+                \resumeItem{Functions}
+                {Get all the informations about the Malaysia covid cases, vaccination based on state and date.}
+            \resumeItemListEnd
+    
+    \vspace{5px}
+    \resumeSubheading
+        {Authentic Education Centre Application}{Web and Mobile Development}
+        {ASP.NET, JavaScript, Firebase, PWA}{Oct 2021 - Present}
+            \resumeItemListStart
+                \resumeItem{Description}
+                {A Final Year Project by using PWA technique for web and mobile platform for a tuition centre.}
+            \resumeItemListEnd
+
+    \vspace{5px}
+    \resumeSubheading
+        {Mask Detection Application}{Image Processing, AI}
+        {Python, TensorFlow, Numpy, Pandas}{Sep 2021 - Oct 2021}
+            \resumeItemListStart
+                \resumeItem{Algorithm Implementation}
+                {Mask detection, mask model training, face detection}
+            \resumeItemListEnd
+            
+    \vspace{5px}
+    \resumeSubheading
+        {Google Code Jam 2020}{Google Competition}
+        {C++}{Oct 2020}
+            \resumeItemListStart
+                \resumeItem{Award}
+                {Advanced to Round 1 in Code Jam}
+            \resumeItemListEnd
+            
+    \vspace{5px}
+    \resumeSubheading
+        {Google Kick Start 2021}{Google Competition}
+        {C++, JAVA}{March 2020}
+            \resumeItemListStart
+                \resumeItem{Award}
+                {Advanced to Round 1 in Kick Start}
+            \resumeItemListEnd
+            
+    \vspace{5px}
+    \resumeSubheading
+        {Google Hash Code 2021}{Google Competition}
+        {JAVA}{March 2021}
+            \resumeItemListStart
+                \resumeItem{Award}
+                {Participants}
+            \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------ACTIVITIES-----------------
+\vspace{-5pt}
+\section{Activities}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+        {TARUC Chess Club}{Tunku Abdul Rahman University College}
+        {Vice President}{June 2021}
+            \resumeItemListStart
+                \resumeItem{Event}
+                {Organized activities for every week and two tournament per semester.}
+            \resumeItemListEnd
+    
+    \vspace{5px}
+    \resumeSubheading
+        {Bachelor in Software Engineering Group 1}{Tunku Abdul Rahman University College}
+        {Programme Representative \& Class Representative}{Oct 2019 - Oct 2022}
+            \resumeItemListStart
+                \resumeItem{Class Management}
+                {Communicate with and gave feedback to lectures and school management.}
+                \resumeItem{Programme Management}
+                {Meeting with school management at every start of the semester.}
+            \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% %-----------PROJECTS-----------------
+% \vspace{-5pt}
+% \section{Projects}
+% \resumeSubHeadingListStart
+% \resumeSubItem{Vison - multimedia search engine (NLP, Search Engine, Web Crawlers, Multimedia Processing)}{(Work in progress) Research oriented, open source, search engine for bringing reverse multimedia search to small \& mid scale enterprises. Tech: Python, NodeJS, Intel OpenVino Toolkit, Selenium, TensorFlow (October '18)}
+% \vspace{2pt}
+% \resumeSubItem{Reinforcement Learning based Traffic Control System (Reinforcement Learning, Computer Vision)}{AI model to resolve city traffic around 50\%
+% faster. Tech: Python, Alibaba Cloud, Raspberry Pi, Arduino, SUMO \& OpenCV. (August '18)}
+% \vspace{2pt}
+% \resumeSubItem{Panorama from Satellite Imagery using Distributed Computing (Distributed Computing, Image Processing)}{Images clicked using drones, provided by ISRO were stitched together using distributed public compute nodes, effectively bringing down processing time exponentially. Tech: PHP, C++, Java, Python (March '18)}
+% \vspace{2pt}
+% \resumeSubItem{Drag-n-drop machine learning learning environment (Web Development, Machine Learning)}{Scratch like tool for implementing machine learning pipelines along with built in tutorial for each concept. Tech: Python, JavaScript (September '18)}
+% \vspace{2pt}
+% \resumeSubItem{Search Engine and Social Network(Web Development, Web Crawler, Search)}{Created from scratch a social network and a search engine based on the idea of integrating Facebook and Google. The launched website was among top 1000 websites in India during 2012-2013. Tech: PHP, MySQL, HTML, CSS, WebSockets, JavaScript, RSS, XML ( May '12)}
+% \resumeSubHeadingListEnd
+% \vspace{-5pt}
+% \section{Publications}
+% \resumeSubHeadingListStart
+% \resumeSubItem{Book: Deep Learning on Web (Web Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Django, Python, AWS, GCP, Azure (November '18)}
+% \vspace{2pt}
+% \resumeSubItem{Book: Deep Learning on Mobile Devices (Flutter App Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Flutter, Android, Firebase, TensorFlow, Python, Dart (December '18)}
+% \resumeSubHeadingListEnd
+% \vspace{-5pt}
+% %-----------Awards-----------------
+% \section{Honors and Awards}
+% \begin{description}[font=$\bullet$]
+% \item {Awarded title of Intel Software Innovator - May, 2019}
+% \vspace{-5pt}
+% \item {Second Runner's Up at TCS EngiNx Engineering Project Innovation Content - September, 2018 }
+% \vspace{-5pt}
+% \item {Runner's Up at Facebook Developers Circle Hackathon - August, 2017}
+
+% \end{description}
+
+% \vspace{-5pt}
+% \section{Volunteer Experience}
+%   \resumeSubHeadingListStart
+% 	\resumeSubheading
+%     {Community Lead at Developer Student Clubs NSEC}{Kolkata, India}
+%     {Conducted online and offline technical \& soft-skills training impacting over 3000 students.}{Jan 2019 - Present}
+% \vspace{5pt}
+%     % \vspace{10pt}\textbf{\large{Community Experience}}
+%     \resumeSubheading
+%     {Event Organizer at Google Developers Group Kolkata}{Kolkata, India}
+%     {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
+
+% \resumeSubHeadingListEnd
+
+\end{document}
